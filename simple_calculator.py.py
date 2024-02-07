@@ -1,0 +1,65 @@
+
+# ........................................MUHAMMAD ASAD AZHAR...................................................
+# .....................................Gmail  asadm2839@gmail.com................................................
+# .........................................STUDENT ID : 62684...................................................
+
+#..........................................Making Calculator...................................................
+
+
+# addition two numbers
+def add(a , b):
+    return a + b
+
+# subtraction two numbers
+def subtract(a , b):
+    return a - b
+
+#  multiplication two numbers
+def multiply(a , b):
+    return a * b
+
+# divition two numbers
+def divide(a , b):
+    return a / b
+
+
+
+# list of functions to use it
+print("1. adiition") 
+print("2. subtraction") 
+print("3. multiplication") 
+print("4. Division") 
+print("5. Exit") 
+
+# selected function to use 
+
+select = input("Enter choice 1 : 2 : 3 : 4 : ")
+
+
+if select == '1':
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    result = num1 + num2
+    print(f"{num1} + {num2} = {result}")
+
+elif select == '2':
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    result = num1 - num2
+    print(f"{num1} - {num2} = {result}")
+
+elif select == '3':
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    result = num1 * num2
+    print(f"{num1} * {num2} = {result}")
+
+elif select == '4':
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    result = num1 / num2
+    print(f"{num1} / {num2} = {result}")
+
+
+
+    
